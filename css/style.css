@@ -215,16 +215,18 @@ body {
 }
 
 .blocks-news__header .col-sm-6 {
-    margin-bottom: 33px;
+    margin-bottom: -15px;
 }
-
+.blocks-news__header{
+    margin-bottom: 0px;
+}
 .section-news .heading-title {
     margin-top: 100px;
 }
 
 .about-company__container{
-    margin-top: 30px;
-    margin-bottom: -30px;
+    padding-top: 100px;
+    margin-bottom: -68px;
 }
 
 .about-company__container .thumbnail, .provider-cards .thumbnail, .logistics-block .thumbnail {
@@ -272,10 +274,10 @@ body {
 
 .advantage-block {
     background-color: #fff;
-    margin-bottom: 130px;
-    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-top: 20px;
     max-width: 384px;
-    margin-left: 12px;
+    margin-left: 2px;
 }
 
 .advantage-block>.caption>img {
@@ -283,13 +285,19 @@ body {
     margin-top: 40px;
     margin-bottom: 32px;
 }
-
+.advantage-block__frirst{
+    margin-left: 0;
+}
 .about-company__container .thumbnail .caption, .provider-cards .thumbnail .caption, .logistics-block .thumbnail .caption {
     padding: 32px;
     margin-left: -3px;
     margin-right: -4px;
     margin-top: -4px;
     margin-bottom: -4px;
+}
+.about-block{
+    padding-top: 0;
+    margin-bottom: 40px;
 }
 .block-news{
     border: none;
@@ -439,14 +447,16 @@ body {
 .blocks-news a:hover, .blocks-news a:focus {
     text-decoration: none;
 }
-
+.about-block__news{
+    padding-top: -100px !important;
+}
 .section-news {
-    padding-top: 100px;
-    padding-bottom: 110px;
+    
+    padding-bottom: 80px;
 }
 
 .section-news .btn-news {
-    margin-top: 130px;
+    margin-top: 147px;
 }
 
 .section-footer {
@@ -554,6 +564,7 @@ body {
     margin-left: 15px;
     margin-right: 15px;
 }
+
 
 .about-company__description {
     margin-top: 50px;
@@ -779,7 +790,9 @@ body {
     display: block;
     margin: 0;
 }
-
+.dropdown .dropdown-menu{
+    border: none;
+}
 .brands-hover .thumbnail {
     border-radius: 0;
     margin-bottom: 1px;
@@ -1173,6 +1186,8 @@ body {
 
 .navbar-nav .dropdown-menu {
     box-shadow: 0px 2px 4px rgba(12, 29, 44, 0.1), 0px 8px 20px rgba(23, 57, 88, 0.3);
+    border-width: 0;
+    border-style: none;
 }
 
 .provider-block .about-company__description {
@@ -1198,6 +1213,7 @@ body {
 }
 .block-clients__map iframe{
     min-height: 636px;
+    border-width: 0;
 }
 .block-news__container .block-news {
     margin: 0 15px 43px 0;
